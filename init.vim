@@ -81,8 +81,9 @@ let g:netrw_winsize = 25
 inoremap " ""<left>
 inoremap ' ''<left>
 inoremap ( ()<left>
-inoremap [ []<left>:
+inoremap [ []<left>
 inoremap { {}<left>
+inoremap {{ {{  }}<ESC>hhi
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
 inoremap {,<CR> {<CR>},<ESC>O
