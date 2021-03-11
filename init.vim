@@ -59,8 +59,10 @@ set clipboard+=unnamedplus
 "
 " FZF
 "
-nnoremap <c-p> :GFiles<cr>
-nnoremap <s-p> :Files<cr>
+nnoremap <leader>p :GFiles<CR>
+nnoremap <leader>P :Files<CR>
+nnoremap <leader>b :Buffers<CR>
+nnoremap <leader>f :Ag<CR>
 "
 " Netrw
 "
