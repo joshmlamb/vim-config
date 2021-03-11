@@ -8,7 +8,9 @@ Plug 'mattn/emmet-vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-sleuth'
 Plug 'tpope/vim-surround'
+Plug 'preservim/nerdcommenter'
 
 call plug#end()
 
@@ -20,14 +22,6 @@ colorscheme onedark
 set number
 set ruler
 set mouse=a
-
-filetype plugin indent on
-" show existing tab with 4 spaces width
-set tabstop=4
-" when indenting with '>', use 4 spaces width
-set shiftwidth=4
-" On pressing tab, insert 4 spaces
-set expandtab
 "
 " Allows for switching between files in the same buffer without saving, it will
 " complain when trying to quit
