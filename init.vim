@@ -57,12 +57,16 @@ set undodir=~/.config/nvim/undo
 set clipboard+=unnamedplus
 
 "
+" General 
+"
+nnoremap <SPACE> :noh<CR>
+"
 " FZF
 "
-nnoremap <leader>p :GFiles<CR>
-nnoremap <leader>P :Files<CR>
-nnoremap <leader>b :Buffers<CR>
-nnoremap <leader>f :Ag<CR>
+nnoremap <SPACE>p :GFiles<CR>
+nnoremap <SPACE>P :Files<CR>
+nnoremap <SPACE>b :Buffers<CR>
+nnoremap <SPACE>f :Ag<CR>
 "
 " Netrw
 "
